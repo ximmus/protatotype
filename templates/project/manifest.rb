@@ -1,19 +1,16 @@
-description "Starter Framework Template"
+description "Front-end development baked in Fire.app"
+
+#directories
+directory 'modules', :within => 'sass_dir'
+directory 'vendor', :within => 'sass_dir'
 
 #stylesheets
 stylesheet 'style.scss', :media => 'screen, projection'
 stylesheet 'partials/_normalize.scss'
-stylesheet 'partials/_normalize-base.scss'
-stylesheet 'partials/_normalize-display.scss'
-stylesheet 'partials/_normalize-embedded.scss'
-stylesheet 'partials/_normalize-figures.scss'
-stylesheet 'partials/_normalize-forms.scss'
-stylesheet 'partials/_normalize-links.scss'
-stylesheet 'partials/_normalize-tables.scss'
-stylesheet 'partials/_normalize-typography.scss'
 
 #scripts
 javascript 'script.js'
+javascript 'jquery-2.0.3.js'
 
 #html
 html 'index.html'
@@ -26,5 +23,5 @@ file '.gitignore'
 file 'protatotype.sublime-project'
 
 welcome_message %Q{
-Make sure to rename the sublime text project and start your git repo!
+See the documentation at https://github.com/ximmus/protatotype
 }
