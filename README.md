@@ -15,5 +15,24 @@ A front-end development template baked in [Fire.app](http://fireapp.kkbox.com/ "
 7. Navigate to "Create Project"
 8. You should see "Protatotype" now available
 
+### Starting a new project
+1. Launch Fire.app
+2. Click on the menubar icon -> "Create Project" -> "Protatotype" -> "Project"
+3. Choose name and location of project
+4. You will be presented with the Fire.app inital report, review and click "OK"
+5. Your new project folder should launch
+6. Change "protatotype.sublime-project" to "yourproject.sublime-project"
+7. Launch SublimeText
+8. Click "Project" -> "Open Project"
+9. Navigate to your new project and chose the "yourproject.sublime-project"
+10. Sublime will open your new project
+11. Click "Project" -> "Edit Project"
+12. Change name "Starter Project" to "Your Project", save and close
+13. Open Github.app
+14. Drag your project folder into Github
+15. Give your project a name and discription, click create
+16. Go to your newly created repo and do an initial commit and publish to Github
+17. Now make awesomeness! 
+
 ##To Do
-* JavaScript best performance loading 
+* JavaScript best performance loading
